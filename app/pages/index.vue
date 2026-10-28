@@ -31,7 +31,7 @@ const links = [
 </script>
 
 <template>
-    <div>
+    <div class="text-sm">
         <section id="header" class="border-gray-300 border rounded-xl overflow-hidden">
             <div
                 class="flex items-center space-x-5  p-5 border-b border-gray-300 justify-center bg-radial from-white to-zinc-100">
