@@ -32,16 +32,16 @@ const links = [
 
 <template>
     <div class="text-sm">
-        <section id="header" class="border-gray-300 border rounded-xl overflow-hidden">
+        <section id="header" class="">
             <div
-                class="flex items-center space-x-5  p-5 border-b border-gray-300 justify-center bg-radial from-white to-zinc-100">
+                class="flex items-center space-x-5  p-5 border-b border-violet-600 rounded-t-xl justify-center bg-violet-600 text-white">
                 <NuxtImg src="/img/logo.png" class="size-12 bg-white rounded-full" alt="" />
                 <div>
-                    <h4 class="font-semibold">Asrama Mahasiswa</h4>
+                    <h4 class="font-semibold">Asrama Mahasiswa</h4> 
                     <p>Universitas Negeri Malang</p>
                 </div>
             </div>
-            <div class="p-5 text-center">
+            <div class="p-5 text-center border-t-0 border border-gray-300 rounded-b-xl">
                 Pusat informasi dan layanan Asrama Mahasiswa Universitas Negeri Malang.
             </div>
         </section>
