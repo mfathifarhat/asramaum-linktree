@@ -50,7 +50,7 @@ const links = [
             <NuxtLink :to="link.link" v-for="link in links"
                 class="p-4 border border-gray-300 rounded-xl flex items-center space-x-5 shadow">
                 <div class="p-3 bg-gray-200 flex items-center justify-center rounded-xl">
-                    <Icon :name="link.icon" class="bg-gray-400 text-gray-600" size="24px" />
+                    <Icon :name="link.icon" class="bg-gray-400 text-gray-600" size="16px" />
                 </div>
                 <div class="min-w-0 flex-1">
                     <h4 class="font-semibold ">{{ link.nama }}</h4>
