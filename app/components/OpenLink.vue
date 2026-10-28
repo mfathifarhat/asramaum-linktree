@@ -55,13 +55,11 @@ async function copyLink() {
 
         toast.add({
             title: 'Tautan berhasil disalin!',
-            icon: 'i-lucide-link-2',
             color: 'success'
         })
     } catch (err) {
         toast.add({
             title: 'Gagal menyalin tautan!',
-            icon: 'i-lucide-circle-alert',
             color: 'error'
         })
     }

@@ -49,7 +49,7 @@ const links = [
         </section>
 
         <section id="links" class="grid grid-cols-1 gap-y-5 mt-5">
-            <OpenLInk v-for="link in links" :data="link"/>
+            <OpenLink v-for="link in links" :data="link"/>
         </section>
     </div>
 </template>
