@@ -35,7 +35,7 @@ const links = [
         <section id="header" class="border-gray-300 border rounded-xl overflow-hidden">
             <div
                 class="flex items-center space-x-5  p-5 border-b border-gray-300 justify-center bg-radial from-white to-zinc-100">
-                <NuxtImg src="/img/logo.png" class="size-12 rounded-xl" alt="" />
+                <NuxtImg src="/img/logo.png" class="size-12 bg-white rounded-full" alt="" />
                 <div>
                     <h4 class="font-semibold">Asrama Mahasiswa</h4>
                     <p>Universitas Negeri Malang</p>
@@ -48,13 +48,13 @@ const links = [
 
         <section id="links" class="grid grid-cols-1 gap-y-5 mt-5">
             <NuxtLink :to="link.link" v-for="link in links"
-                class="p-4 border border-gray-300 rounded-xl flex items-center space-x-5 shadow">
-                <div class="p-2 bg-gray-200 flex items-center justify-center rounded-xl">
-                    <Icon :name="link.icon" class="bg-gray-400 text-gray-600" size="18px" />
+                class="p-4 border border-gray-300 rounded-xl flex items-center space-x-5 ring-violet-300 hover:border-violet-300 hover:ring-2 hover:shadow-md duration-200">
+                <div class="p-3 bg-violet-200 flex items-center justify-center rounded-xl">
+                    <Icon :name="link.icon" class=" text-violet-600" size="18px" />
                 </div>
                 <div class="min-w-0 flex-1">
-                    <h4 class="font-semibold ">{{ link.nama }}</h4>
-                    <p class="overflow-hidden text-ellipsis text-nowrap underline">{{ link.link }}</p>
+                    <h4 class="font-semibold text-gray-900">{{ link.nama }}</h4>
+                    <p class="overflow-hidden text-ellipsis text-nowrap underline text-gray-600">{{ link.link }}</p>
                 </div>
             </NuxtLink>
         </section>
