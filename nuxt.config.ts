@@ -2,10 +2,13 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/fonts', '@nuxt/icon/module', '@nuxt/image'],
+  modules: ['@nuxt/fonts', '@nuxt/icon/module', '@nuxt/image', '@nuxt/ui'],
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
+  ui: {
+    colorMode: false
+  },
   vite: {
     plugins: [
       tailwindcss(),
@@ -15,5 +18,6 @@ export default defineNuxtConfig({
     families: [
       { name: 'Inter', provider: 'google' },
     ]
-  }
+  },
+  
 })

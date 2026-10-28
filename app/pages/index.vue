@@ -1,4 +1,6 @@
 <script setup>
+import OpenLInk from '~/components/OpenLink.vue';
+
 
 const links = [
     {
@@ -41,22 +43,13 @@ const links = [
                     <p>Universitas Negeri Malang</p>
                 </div>
             </div>
-            <div class="p-5 text-center border-t-0 border border-gray-300 rounded-b-xl">
+            <div class="p-5 text-center text-gray-900 border-t-0 border border-gray-300 rounded-b-xl">
                 Pusat informasi dan layanan Asrama Mahasiswa Universitas Negeri Malang.
             </div>
         </section>
 
         <section id="links" class="grid grid-cols-1 gap-y-5 mt-5">
-            <NuxtLink :to="link.link" v-for="link in links"
-                class="p-4 border border-gray-300 rounded-xl flex items-center space-x-5 ring-violet-300 hover:border-violet-300 hover:ring-2 hover:shadow-md duration-200">
-                <div class="p-3 bg-violet-200 flex items-center justify-center rounded-xl">
-                    <Icon :name="link.icon" class=" text-violet-600" size="18px" />
-                </div>
-                <div class="min-w-0 flex-1">
-                    <h4 class="font-semibold text-gray-900">{{ link.nama }}</h4>
-                    <p class="overflow-hidden text-ellipsis text-nowrap underline text-gray-600">{{ link.link }}</p>
-                </div>
-            </NuxtLink>
+            <OpenLInk v-for="link in links" :data="link"/>
         </section>
     </div>
 </template>
