@@ -35,7 +35,7 @@ const links = [
         <section id="header" class="border-gray-300 border rounded-xl overflow-hidden">
             <div
                 class="flex items-center space-x-5  p-5 border-b border-gray-300 justify-center bg-radial from-white to-zinc-100">
-                <NuxtImg src="/img/logo.png" class="size-18 rounded-xl" alt="" />
+                <NuxtImg src="/img/logo.png" class="size-12 rounded-xl" alt="" />
                 <div>
                     <h4 class="font-semibold">Asrama Mahasiswa</h4>
                     <p>Universitas Negeri Malang</p>
