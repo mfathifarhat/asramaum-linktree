@@ -41,7 +41,7 @@ const links = [
                     <p>Universitas Negeri Malang</p>
                 </div>
             </div>
-            <div class="p-5">
+            <div class="p-5 text-center">
                 Pusat informasi dan layanan Asrama Mahasiswa Universitas Negeri Malang.
             </div>
         </section>
@@ -49,8 +49,8 @@ const links = [
         <section id="links" class="grid grid-cols-1 gap-y-5 mt-5">
             <NuxtLink :to="link.link" v-for="link in links"
                 class="p-4 border border-gray-300 rounded-xl flex items-center space-x-5 shadow">
-                <div class="p-3 bg-gray-200 flex items-center justify-center rounded-xl">
-                    <Icon :name="link.icon" class="bg-gray-400 text-gray-600" size="16px" />
+                <div class="p-2 bg-gray-200 flex items-center justify-center rounded-xl">
+                    <Icon :name="link.icon" class="bg-gray-400 text-gray-600" size="18px" />
                 </div>
                 <div class="min-w-0 flex-1">
                     <h4 class="font-semibold ">{{ link.nama }}</h4>
