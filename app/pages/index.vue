@@ -13,7 +13,7 @@ const links = [
     },
     {
         link: "https://bit.ly/JadwalPemakaianFasilitasTempat",
-        nama: "Jadwal Pemakaian Aula Asrama Lili",
+        nama: "Jadwal Pemakaian Aula Lili",
         icon: "lucide:calendar-days"
     },
     {
