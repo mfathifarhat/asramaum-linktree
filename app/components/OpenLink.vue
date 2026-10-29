@@ -1,7 +1,7 @@
 <template>
     <UModal :title="props.data.nama">
         <button type="button"
-            class="p-3 text-left border border-gray-300 rounded-xl flex items-center space-x-5 ring-violet-300 hover:border-violet-300 hover:ring-2 hover:shadow-md duration-200">
+            class="p-3 text-left border border-gray-300 rounded-xl flex items-center space-x-3 ring-violet-300 hover:border-violet-300 hover:ring-2 hover:shadow-md duration-200">
             <div class="p-3 bg-violet-200 flex items-center justify-center rounded-lg">
                 <Icon :name="props.data.icon" class=" text-violet-500" size="18px" />
             </div>
