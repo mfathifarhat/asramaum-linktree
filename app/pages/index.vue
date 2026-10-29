@@ -36,7 +36,7 @@ const links = [
     <div class="text-sm">
         <section id="header" class="">
             <div
-                class="flex items-center space-x-5  p-5 border-b border-violet-600 rounded-t-xl justify-center bg-violet-600 text-white">
+                class="flex items-center space-x-5  p-5 border-b border-violet-300 rounded-t-xl justify-center bg-violet-500 text-white">
                 <NuxtImg src="/img/logo.png" class="size-12 bg-white rounded-full" alt="" />
                 <div>
                     <h4 class="font-semibold">Asrama Mahasiswa</h4> 
