@@ -24,7 +24,7 @@
                     {{ copied ? 'Tersalin' : 'Salin Link' }}
                 </Button>
 
-                <NuxtLink :to="props.data.link"
+                <NuxtLink :to="props.data.link" target="_blank"
                     class="flex items-center justify-center gap-2 rounded-lg text-sm bg-violet-500 px-4 py-2.5
                      font-medium text-white transition hover:bg-violet-700
                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2">
