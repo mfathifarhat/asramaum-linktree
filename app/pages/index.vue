@@ -36,7 +36,7 @@ const links = [
     <div class="text-sm">
         <section id="header" class=" border border-gray-300 rounded-xl overflow-hidden">
             <div
-                class="flex items-center space-x-5 border-b border-gray-300  p-5 rounded-t-xl justify-center bg-radial from-white to-zinc-100 text-black">
+                class="flex items-center space-x-5 border-b border-gray-300  p-5 rounded-t-xl justify-center bg-[#643A65] text-white">
                 <NuxtImg src="/img/logo.png" class="size-12 bg-white rounded-full" alt="" />
                 <div>
                     <h4 class="font-semibold">Asrama Mahasiswa</h4> 
@@ -44,7 +44,7 @@ const links = [
                 </div>
             </div>
             <div class="p-5 text-center text-gray-900 border-t-0 rounded-b-xl">
-                Pusat informasi dan layanan Asrama Mahasiswa Universitas Negeri Malang.
+                Pusat informasi dan layanan Asrama Mahasiswa Universitas Negeri Malang
             </div>
         </section>
 

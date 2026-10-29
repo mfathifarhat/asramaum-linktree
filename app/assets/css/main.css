@@ -4,3 +4,9 @@
 @theme {
   --font-sans: "Inter", "sans-serif";
 }
+
+.wrapper {
+  background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.5)), url(../../../public/img/hero-image.webp);
+  background-size: cover;
+  background-position: center;
+}

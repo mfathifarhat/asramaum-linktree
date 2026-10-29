@@ -11,6 +11,9 @@ export default defineNuxtConfig({
 	},
 	vite: {
 		plugins: [tailwindcss()],
+		server: {
+			allowedHosts: true,
+		},
 	},
 	fonts: {
 		families: [{ name: "Inter", provider: "google" }],
