@@ -3,7 +3,7 @@
         <button type="button"
             class="p-3 text-left border border-gray-300 rounded-xl flex items-center space-x-5 ring-violet-300 hover:border-violet-300 hover:ring-2 hover:shadow-md duration-200">
             <div class="p-3 bg-violet-200 flex items-center justify-center rounded-lg">
-                <Icon :name="props.data.icon" class=" text-violet-600" size="18px" />
+                <Icon :name="props.data.icon" class=" text-violet-500" size="18px" />
             </div>
             <div class="min-w-0 flex-1">
                 <h4 class="font-semibold text-gray-900">{{ props.data.nama }}</h4>
@@ -25,7 +25,7 @@
                 </Button>
 
                 <NuxtLink :to="props.data.link"
-                    class="flex items-center justify-center gap-2 rounded-lg text-sm bg-violet-600 px-4 py-2.5
+                    class="flex items-center justify-center gap-2 rounded-lg text-sm bg-violet-500 px-4 py-2.5
                      font-medium text-white transition hover:bg-violet-700
                      focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-500 focus-visible:ring-offset-2">
                     <Icon name="lucide:external-link" size="18px" />
