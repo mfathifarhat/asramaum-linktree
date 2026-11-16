@@ -4,6 +4,11 @@ import OpenLInk from '~/components/OpenLink.vue';
 
 const links = [
     {
+        link: "https://bit.ly/ASPIRA2026-2027",
+        nama: "ASPIRA",
+        icon: "lucide:megaphone"
+    },
+    {
         link: "https://bit.ly/PeminjamanAlatOlahragaAsramaMahasiswaUM",
         nama: "Peminjaman Alat Olahraga",
         icon: "lucide:volleyball"

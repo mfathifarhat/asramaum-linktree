@@ -10,3 +10,7 @@
   background-size: cover;
   background-position: center;
 }
+
+button:hover{
+  cursor: pointer;
+}
